@@ -1,6 +1,6 @@
 class Spree::Upload < ::Spree::Asset
   
-  attr_accessible :attachment, :alt
+  # attr_accessible :attachment, :alt
   
   validate :no_attachement_errors
   
